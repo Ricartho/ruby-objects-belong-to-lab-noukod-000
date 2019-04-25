@@ -2,5 +2,7 @@ class Song
  attr_accessor :title,:artist
 end 
 
-artist = Artist.new 
+artist_new = Artist.new 
 artist.name = "Rihanna"
+rude = Song.new 
+rude.artist = artist_new
